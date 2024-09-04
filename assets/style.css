@@ -33,7 +33,7 @@ section {
     article {
         background-color: antiquewhite;
         border-radius: 1vw;
-    padding: 2.5%;
+        padding: 2.5%;
         width: 90%;
         height: auto;
         display: flex;
