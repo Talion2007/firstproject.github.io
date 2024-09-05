@@ -1,5 +1,9 @@
 body {
-    background-color: lightskyblue;
+    background-color: darkblue;
+    background-image: linear-gradient(lightskyblue, blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     margin: 2.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -92,250 +96,170 @@ section {
 /* de 481px ate 768px */
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    .Sec1 {
+    section {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
 
-        nav {
-            width: 100%;
+        header {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            width: 95%;
             height: auto;
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
-            align-items: center;
+            align-content: space-around;
+            justify-content: space-evenly;
 
-            ul {
-                list-style-type: none;
-                width: 50%;
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-            }
-
-            h2 {
-                font-size: 3vw;
-                width: 30%;
-            }
-
-            a {
-                width: 75%;
+            h1 {
                 font-size: 2vw;
+                color: darkblue;
+            }
+
+            img {
+                width: 10%;
+                height: auto;
+                transition: all 2s;
             }
         }
 
-        .Sec2 {
-            header {
-                h1 {
-                    font-size: 4vw;
-                }
+        article {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            padding: 2.5%;
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-around;
 
-                img {
-                    width: 10%;
-                    height: auto;
-                    transition: none;
-                }
-
-                img:hover {
-                    width: 10%;
-                    height: auto;
-                    transition: none;
-                }
-            }
-
-            main {
-                h2 {
-                    font-size: 3vw;
-                    width: 100%;
-                    text-align: center;
-                }
-
-                .p1 {
-                    font-size: 2vw;
-                    width: 90%;
-                }
-
-                .p2 {
-                    font-size: 2vw;
-                    width: 90%;
-                }
-
-                img {
-                    width: 90%;
-                    height: auto;
-                    transition: none;
-                    border-radius: 5vw;
-                }
-
-                img:hover {
-                    width: 90%;
-                    height: auto;
-                    transition: none;
-                    border-radius: 5vw;
-                }
-            }
-
-            aside {
-                display: flex;
-                flex-flow: column wrap;
+            h2 {
+                color: darkblue;
+                font-size: 1.5vw;
+                width: 50%;
                 text-align: center;
-
-                h2 {
-                    font-size: 3vw;
-                    width: 90%;
-                }
-
-                p {
-                    font-size: 2vw;
-                    width: 90%;
-                }
-
             }
 
-            footer {
-                h2 {
-                    font-size: 3vw;
-                }
+            img {
+                width: 20%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 0.5vw;
+            }
 
-                p {
-                    font-size: 2vw;
-                }
+            img:hover {
+                width: 50%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 5vw;
+            }
+        }
+
+        header {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            width: 95%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-evenly;
+
+            h1 {
+                font-size: 2vw;
+                color: darkblue;
+            }
+
+            img {
+                width: 10%;
+                height: auto;
+                transition: all 2s;
             }
         }
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .Sec1 {
+    section {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
 
-        nav {
-            width: 100%;
+        header {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            width: 95%;
             height: auto;
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
-            align-items: center;
+            align-content: space-around;
+            justify-content: space-evenly;
 
-            ul {
-                list-style-type: none;
-                width: 60%;
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
+            h1 {
+                font-size: 2vw;
+                color: darkblue;
             }
 
-            h2 {
-                font-size: 4.5vw;
-                width: 25%;
-            }
-
-            a {
-                font-size: 3vw;
+            img {
+                width: 10%;
+                height: auto;
+                transition: all 2s;
             }
         }
 
-        .Sec2 {
+        article {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            padding: 2.5%;
+            width: 90%;
+            height: auto;
             display: flex;
-            flex-flow: column wrap;
-            align-content: center;
-            width: 100%;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-around;
 
-            header {
-                h1 {
-                    font-size: 6vw;
-                }
-
-                img {
-                    display: none;
-                    transition: none;
-                }
-
-                img:hover {
-                    display: none;
-                    transition: none;
-                }
-            }
-
-            main {
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-flow: column wrap;
-                align-content: space-around;
-                justify-content: space-around;
-
-                h2 {
-                    font-size: 4.5vw;
-                    width: 100%;
-                    text-align: center;
-                }
-
-                .p1 {
-                    font-size: 3vw;
-                    width: 90%;
-                    text-align: justify;
-                    align-self: center;
-                }
-
-                .p2 {
-                    font-size: 3vw;
-                    width: 90%;
-                    text-align: justify;
-                    align-self: center;
-                }
-
-                img {
-                    width: 90%;
-                    height: auto;
-                    transition: none;
-                    border-radius: 5vw;
-                    align-self: center;
-                }
-
-                img:hover {
-                    width: 90%;
-                    height: auto;
-                    transition: none;
-                    border-radius: 5vw;
-                    align-self: center;
-                }
-            }
-
-            aside {
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-flow: column wrap;
+            h2 {
+                color: darkblue;
+                font-size: 1.5vw;
+                width: 50%;
                 text-align: center;
-
-                h2 {
-                    font-size: 4.5vw;
-                    width: 100%;
-                }
-
-                p {
-                    font-size: 3vw;
-                    width: 100%;
-                }
-
             }
 
-            footer {
-                h2 {
-                    font-size: 4.5vw;
-                    width: 100%;
+            img {
+                width: 20%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 0.5vw;
+            }
 
-                }
+            img:hover {
+                width: 50%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 5vw;
+            }
+        }
 
-                p {
-                    font-size: 3vw;
-                    width: 100%;
+        header {
+            background-color: antiquewhite;
+            border-radius: 1vw;
+            width: 95%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-evenly;
 
-                }
+            h1 {
+                font-size: 2vw;
+                color: darkblue;
+            }
+
+            img {
+                width: 10%;
+                height: auto;
+                transition: all 2s;
             }
         }
     }
