@@ -49,20 +49,6 @@ section {
             text-align: center;
         }
 
-        .p1 {
-            color: antiquewhite;
-            font-size: 1vw;
-            width: 45%;
-            text-align: justify;
-        }
-
-        .p2 {
-            color: antiquewhite;
-            font-size: 1vw;
-            width: 90%;
-            text-align: justify;
-        }
-
         img {
             width: 20%;
             height: auto;
@@ -78,26 +64,29 @@ section {
         }
     }
 
-    footer {
-        background-color: cadetblue;
-        width: 100%;
+    header {
+        background-color: antiquewhite;
+        border-radius: 1vw;
+        width: 95%;
         height: auto;
-        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-around;
+        justify-content: space-evenly;
 
-        h2 {
-            font-size: 1.5vw;
-            width: 100%;
-
+        h1 {
+            font-size: 2vw;
+            color: darkblue;
         }
 
-        p {
-            font-size: 1vw;
-            width: 100%;
-
+        img {
+            width: 10%;
+            height: auto;
+            transition: all 2s;
         }
     }
-
 }
+
 
 /*  ate 480px  */
 /* de 481px ate 768px */
