@@ -15,7 +15,7 @@ section {
     align-items: center;
 
     header {
-       background-image: linear-gradient(antiquewhite, moccasin);
+        background-image: linear-gradient(antiquewhite, moccasin);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -27,6 +27,7 @@ section {
         align-content: space-around;
         justify-content: space-evenly;
         font-size: 1.5vw;
+        margin: 1%;
 
         img {
             width: 10%;
@@ -49,6 +50,7 @@ section {
         font-size: 1vw;
         text-align: center;
         padding: 2.5%;
+        margin: 1%;
 
 
         img {
@@ -79,6 +81,7 @@ section {
         align-content: space-around;
         justify-content: space-evenly;
         font-size: 1.5vw;
+        margin: 1%;
 
         img {
             width: 10%;
@@ -97,19 +100,19 @@ section {
             border-radius: 1.5vw;
             font-size: 2vw;
         }
-    
+
         article {
             border-radius: 1.5vw;
             font-size: 1.5vw;
             text-align: center;
-    
+
             img {
                 width: 30%;
                 height: auto;
                 transition: all 2s;
                 border-radius: 1.5vw;
             }
-    
+
             img:hover {
                 width: 50%;
                 height: auto;
@@ -117,7 +120,7 @@ section {
                 border-radius: 7.5vw;
             }
         }
-    
+
         footer {
             border-radius: 1.5vw;
             font-size: 1.5vw;
@@ -125,4 +128,71 @@ section {
     }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    section {
+        header {
+            width: 95%;
+            font-size: 3vw;
+            margin: 0%;
+
+            img {
+                width: 10%;
+                height: auto;
+            }
+        }
+
+        article {
+            background-image: linear-gradient(antiquewhite, moccasin);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            border-radius: 1vw;
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-around;
+            font-size: 1vw;
+            text-align: center;
+            padding: 2.5%;
+            margin: 1%;
+
+
+            img {
+                width: 20%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 1vw;
+            }
+
+            img:hover {
+                width: 45%;
+                height: auto;
+                transition: all 2s;
+                border-radius: 5vw;
+            }
+        }
+
+        footer {
+            background-image: linear-gradient(antiquewhite, moccasin);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            border-radius: 1vw;
+            width: 95%;
+            height: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-evenly;
+            font-size: 1.5vw;
+            margin: 1%;
+
+            img {
+                width: 10%;
+                height: auto;
+            }
+        }
+    }
+}
