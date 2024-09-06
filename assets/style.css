@@ -132,7 +132,7 @@ section {
     section {
         header {
             width: 95%;
-            font-size: 3vw;
+            font-size: 6vw;
             margin: 1%;
 
             img {
@@ -153,7 +153,7 @@ section {
             flex-flow: row wrap;
             align-content: space-around;
             justify-content: space-around;
-            font-size: 1vw;
+            font-size: 4vw;
             text-align: center;
             padding: 2.5%;
             margin: 1%;
